@@ -21,7 +21,7 @@ public class gugu {
 			for(int i = 1;i<10;i++)
 				System.out.println(num+" * "+i+" = "+num*i);
 		}
-		else
+		else//num 음수
 		{
 			System.out.println("출력 불가");
 		}
