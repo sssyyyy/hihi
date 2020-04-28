@@ -7,7 +7,7 @@ public class gugu {
 		Scanner in =new Scanner(System.in);
 		int num = in.nextInt();
 		
-		if(num<0)
+		if(num==0)
 		{
 		for(int i = 1;i<10;i++)
 		{
@@ -16,8 +16,15 @@ public class gugu {
 				System.out.println(i+" * "+j+" = "+i*j);
 		}
 		}
-
-	}
+		else if(num>0)
+		{
+			for(int i = 1;i<10;i++)
+				System.out.println(num+" * "+i+" = "+num*i);
+		}
+		else
+		{
+			System.out.println("출력 불가");
+		}
 
 	}
 
